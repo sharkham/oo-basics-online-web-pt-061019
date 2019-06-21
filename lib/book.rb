@@ -17,6 +17,6 @@ class Book
 end
 
 book1 = Book.new("Harry Potter")
-puts book.title #"Harry Potter"
-puts book.author = "J.K. Rowling"
-puts book.author #"J.K. Rowling"
+puts book1.title #"Harry Potter"
+puts book1.author = "J.K. Rowling"
+puts book1.author #"J.K. Rowling"
