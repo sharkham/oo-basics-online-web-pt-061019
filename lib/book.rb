@@ -15,3 +15,8 @@ class Book
     @author
   end
 end
+
+book1 = Book.new("Harry Potter")
+puts book.title #"Harry Potter"
+puts book.author = "J.K. Rowling"
+puts book.author #"J.K. Rowling"
