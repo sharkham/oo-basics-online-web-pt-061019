@@ -1,22 +1,10 @@
 class Book
+  attr_accessor :author, :page_count, :genre
+  attr_reader :title
   def initialize(title)
     @title = title
   end
-
-  def title
-    @title
-  end
-
-  def author=(author)
-    @author = author
-  end
-
-  def author
-    @author
+  def turn_page
+    puts "Flipping the page...wow, you read fast!"
   end
 end
-
-book1 = Book.new("Harry Potter")
-puts book1.title #"Harry Potter"
-puts book1.author = "J.K. Rowling"
-puts book1.author #"J.K. Rowling"
